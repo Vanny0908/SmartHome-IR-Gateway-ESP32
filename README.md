@@ -12,7 +12,7 @@ Este proyecto actúa como un "Gateway" o puente de telecomunicaciones (Edge Node
 * **Acondicionamiento de Potencia:** Diseño con transistor NPN de conmutación (BC547) para maximizar la corriente del diodo emisor IR (940nm) aislando los puertos lógicos de 3.3V del ESP32.
 
 ## 🗂️ Estructura del Repositorio
-* `/codigoF.ino` : Firmware principal en C++ para el ESP32 (Lógica MQTT, Interrupciones y Emisión IR).
+* `/Codigo Esp con IR y Alexa.ino` : Firmware principal en C++ para el ESP32 (Lógica MQTT, Interrupciones y Emisión IR).
 * `/Backend_AWS_Lambda/` : Código fuente en Python con la implementación de la API REST para el control del sistema a través de Custom Skills en la nube de AWS (Capa de abstracción alternativa).
 
 ## 🛠️ Tecnologías y Hardware
